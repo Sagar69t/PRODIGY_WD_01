@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/jpg" href="landing page.jpg">
+    <link rel="stylesheet" href="landingpagestyle.css">
+    <title>LANDING PAGE</title>
+</head>
+<style>
+    body{
+        background-color: aqua;
+    }
+</style>
+<body>
+    <nav>
+        <div style="color: black;" class="heading">LANDING PAGE</div>
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            &#9776
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            &#x274C
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>Web Development Tutorials</h1>
+            <button>
+                <a href=
+"">
+                    Explore More
+                </a>
+            </button>
+        </div>
+        <div class="side2">
+            <img src=
+"landing page.jpg" alt="Avatar"
+                width="300">
+        </div>
+    </div>
+
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>Courses</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            DSA
+                        </a>
+                    </div>
+                    <p>
+                        The term DSA stands for Data 
+                        Structures and Algorithms. As 
+                        the name itself suggests, it 
+                        is a combination of two 
+                        separate yet interrelated 
+                        topics.
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            HTML
+                        </a>
+                    </div>
+                    <p>
+                        HTML stands for HyperText 
+                        Markup Language. It is used 
+                        to design web pages using 
+                        the markup language.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Javascript
+                        </a>
+                    </div>
+                    <p>
+                        JavaScript (JS) is the most 
+                        popular lightweight, interpreted 
+                        compiled programming language.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                            Ph No:- 8085363398<br>
+                            <p>
+                                <a href="mailto:kharesanjay18@gmail.com">
+                                  @Email me
+                                </a></p>
+                            <a href="mailto:kharesanjay18@gmail.com"></a>
+                            Aaga Chowk, Garha Phatak,
+                            Jabalpur(482002), Madhya Pradesh
+                        
+    
+                        </div>
+                        <div class="title1">
+                            <span>More Information</span>
+                        </div>
+                        <div class="content1">
+                            This is the Landing page made by me as the internship 
+                            task 1 given by Prodigyinfotech , as this is my first page there 
+                            can be some errors and i will try my best to improve them 
+                            Your feedback will help me improve so please do tell.
+                            Thank you! <div class=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Created By
+                <a href="http://127.0.0.1:5500/portfolio.html" 
+                    target="_blank">
+                 <h3>@Akhanddeep Khare</h3>  
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+
+</body>
+<footer>
+    <p>&copy; 2024 Akhanddeep khare. All rights reserved.</p>
+  </footer>
+</html>
